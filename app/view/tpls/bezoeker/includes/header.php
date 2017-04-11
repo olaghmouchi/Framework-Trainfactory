@@ -15,15 +15,16 @@
             </div>
             <form action="index.php?action=inloggen" method="POST">
             <div class="login">
+            <?=isset($boodschap)?$boodschap:""?>
               <table>
                 <tr>
                   <td>
-                    <input type="text" autocomplete="off" placeholder="vul uw gebuikersnaam in" name="gn" value='<?= isset($gn)?$gn:"";?>' required="required">
+                    <input type="text" placeholder="vul uw gebuikersnaam in" name="gn" value='<?= isset($gn)?$gn:"";?>' required="required">
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <input type="password" autocomplete="off" name="ww" placeholder="vul uw wachtwoord in" value='<?= isset($ww)?$ww:"";?>' required="required" >
+                    <input type="password" name="ww" placeholder="vul uw wachtwoord in" value='<?= isset($ww)?$ww:"";?>' required="required" >
                   </td>
                 </tr>
                 <tr>

@@ -9,5 +9,7 @@
         <li><a href="?control=member&action=inloggen">Gedragsregels</a></li>
 
         <li><a href="?control=member&action=inloggen">Locatie & Contact</a></li>
+
+        <li><a href="?control=member&action=uitloggen">Uitloggen</a></li>
     </ul>
 </nav>

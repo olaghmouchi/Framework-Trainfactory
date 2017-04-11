@@ -30,6 +30,7 @@ class BezoekerController extends AbstractController
                      break;
             }
         }
+        $this->forward("default");
     }
 
     public function defaultAction()

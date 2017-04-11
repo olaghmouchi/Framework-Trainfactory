@@ -3,7 +3,7 @@
 
     use ao\php\framework\controls\AbstractController;
 
-class MemberController extends AbstractController
+class AdminController extends AbstractController
 {
     public function defaultAction()
     {
@@ -15,5 +15,5 @@ class MemberController extends AbstractController
     {
         $this->model->stopSession();
         $this->forward('default','bezoeker');
-    }  
+    } 
 }
